@@ -1,6 +1,6 @@
 
 fun main(args: Array<String>) {
-    val day: Day = Day.valueOf("DAY7")
+    val day: Day = Day.valueOf("DAY8")
     day.advantQ.part1()
     day.advantQ.part2()
 }
@@ -15,7 +15,8 @@ enum class Day (val path:String, val advantQ: advantQ) {
     DAY4("inputs/day4/", q4()),
     DAY5("inputs/day5/", q5()),
     DAY6("inputs/day6/", q6()),
-    DAY7("inputs/day7.txt", q7())
+    DAY7("inputs/day7.txt", q7()),
+    DAY8("inputs/day8.txt", q8())
 }
 
 
